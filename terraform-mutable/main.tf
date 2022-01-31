@@ -7,7 +7,7 @@ module "cart" {
   COMPONENT            = "user"
   PORT                 = 8080
   IS_PRIVATE_LB        = true
-  LB_RULE_PRIORITY     = 102
+  LB_RULE_PRIORITY     = 105
   APP_VERSION          = var.APP_VERSION
   NEXUS_USER           = var.NEXUS_USER
   NEXUS_PASS           = var.NEXUS_PASS
